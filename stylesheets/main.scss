@@ -1,0 +1,59 @@
+@import 'normalize';
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+body {
+	// font-family: Helvetica;
+	font-family: 'Open Sans';
+}
+
+// $red: #FF423F;
+$red: #FF5151;
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.active-link {
+	color: rgb(64, 64, 64);
+	.fa {
+		color: lighten($red, 10%);
+	}
+}
+
+#navbar {
+	position: fixed;
+	height: 100vh;
+	font-size: 24px;
+	padding: 1.2em 2em;
+	// padding-right: 2em;
+	background-color: rgb(246, 246, 246);
+	box-shadow: 0 0 3px rgb(196, 196, 196);
+	a {
+		padding-left: 0.3em;
+		display: block;
+		color: rgb(153, 153, 153);
+		text-decoration: none;
+		height: 2.4em;
+		transition-duration: 300ms;
+		.fa {
+			color: rgb(198, 198, 198);
+			width: 1em;
+			padding-right: 0.8em;
+			vertical-align: middle;
+			text-align: center;
+		}
+		&:hover {
+			@extend .active-link;
+		}
+	}
+	#logo {
+		// text-align: center;
+		letter-spacing: -0.12em;
+		font-size: 3.2em;
+		font-weight: 700;
+		height: 1.6em;
+		// color: #FF446D;
+		color: $red;
+	}
+}
