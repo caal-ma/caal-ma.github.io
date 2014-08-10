@@ -389,7 +389,6 @@ body {
       vertical-align: middle;
       text-align: center; }
   #navbar #logo {
-    text-align: center;
     letter-spacing: -0.12em;
     font-size: 3.2em;
     font-weight: 700;
@@ -400,9 +399,8 @@ body {
   font-size: 1.6em;
   font-weight: 700;
   background-color: #ff6a6a;
-  padding: 1.2em 1em;
-  color: #f6f6f6;
-  text-align: center; }
+  padding: 1.6em 3em;
+  color: #f6f6f6; }
   #logo-banner .logo-chinese {
     padding-top: 0.1em;
     font-weight: 400;
@@ -413,11 +411,10 @@ body {
   margin-left: 291.625px; }
 
 article {
-  border: 1px #c6c6c6 solid;
+  border: 2px #c6c6c6 dashed;
   box-shadow: 0 0 3px #f6f6f6;
   max-width: 50em;
   padding: 1.6em 2em;
-  margin: 0 auto;
   margin-bottom: 3em;
   border-radius: 0.6em; }
 
