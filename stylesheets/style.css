@@ -370,17 +370,18 @@ body {
 #navbar {
   position: fixed;
   height: 100vh;
-  font-size: 24px;
-  padding: 1.2em 2em;
+  font-size: 20px;
+  padding: 1.2em 2.4em;
   background-color: #f6f6f6;
-  box-shadow: 0 0 3px #c4c4c4; }
+  box-shadow: 0 0 9px #c4c4c4; }
   #navbar a {
     padding-left: 0.3em;
     display: block;
     color: #999999;
     text-decoration: none;
-    height: 2.4em;
-    transition-duration: 300ms; }
+    height: 3.2em;
+    transition-duration: 300ms;
+    vertical-align: center; }
     #navbar a .fa {
       color: #c6c6c6;
       width: 1em;
@@ -388,8 +389,44 @@ body {
       vertical-align: middle;
       text-align: center; }
   #navbar #logo {
+    text-align: center;
     letter-spacing: -0.12em;
     font-size: 3.2em;
     font-weight: 700;
-    height: 1.6em;
+    height: 1.8em;
     color: #ff5151; }
+
+#logo-banner {
+  font-size: 1.6em;
+  font-weight: 700;
+  background-color: #ff6a6a;
+  padding: 1.2em 1em;
+  color: #f6f6f6;
+  text-align: center; }
+  #logo-banner .logo-chinese {
+    padding-top: 0.1em;
+    font-weight: 400;
+    letter-spacing: 0.2em; }
+
+#content {
+  font-size: 20px;
+  margin-left: 291.625px; }
+
+article {
+  border: 1px #c6c6c6 solid;
+  box-shadow: 0 0 3px #f6f6f6;
+  max-width: 50em;
+  padding: 1.6em 2em;
+  margin: 0 auto;
+  margin-bottom: 3em;
+  border-radius: 0.6em; }
+
+section {
+  color: #404040;
+  padding: 3em; }
+
+header {
+  color: #202020; }
+  header h1 {
+    margin: 0.5em 0;
+    margin-top: 0.3em; }

@@ -24,18 +24,20 @@ $red: #FF5151;
 #navbar {
 	position: fixed;
 	height: 100vh;
-	font-size: 24px;
-	padding: 1.2em 2em;
+	font-size: 20px;
+	padding: 1.2em 2.4em;
 	// padding-right: 2em;
 	background-color: rgb(246, 246, 246);
-	box-shadow: 0 0 3px rgb(196, 196, 196);
+	box-shadow: 0 0 9px rgb(196, 196, 196);
 	a {
 		padding-left: 0.3em;
 		display: block;
 		color: rgb(153, 153, 153);
 		text-decoration: none;
-		height: 2.4em;
+		height: 3.2em;
+		// padding: 1.2em 0;
 		transition-duration: 300ms;
+		vertical-align: center;
 		.fa {
 			color: rgb(198, 198, 198);
 			width: 1em;
@@ -48,12 +50,58 @@ $red: #FF5151;
 		}
 	}
 	#logo {
-		// text-align: center;
+		text-align: center;
 		letter-spacing: -0.12em;
 		font-size: 3.2em;
 		font-weight: 700;
-		height: 1.6em;
+		height: 1.8em;
 		// color: #FF446D;
 		color: $red;
 	}
+}
+
+#logo-banner {
+	font-size: 1.6em;
+	font-weight: 700;
+	// background-color: $red;
+	background-color: lighten($red, 5%);
+	padding: 1.2em 1em;
+	color: rgb(246, 246, 246);
+	text-align: center;
+	.logo-chinese {
+		padding-top: 0.1em;
+		font-weight: 400;
+		letter-spacing: 0.2em;
+	}
+}
+
+#content {
+	font-size: 20px;
+	margin-left: 195.625px + 2 * 48px;
+}
+
+article {
+	border: 1px rgb(198, 198, 198) solid;
+	box-shadow: 0 0 3px rgb(246, 246, 246);
+	// background-color: rgb(251, 251, 251);
+	max-width: 50em;
+	padding: 1.6em 2em;
+	// margin: 3em;
+	margin: 0 auto;
+	margin-bottom: 3em;
+	border-radius: 0.6em;
+}
+
+section {
+	color: rgb(64, 64, 64);
+	padding: 3em;
+}
+
+header {
+	color: rgb(32, 32, 32);
+	h1 {
+		margin: 0.5em 0;
+		margin-top: 0.3em;
+	}
+	// margin: 0.5em 0;
 }
